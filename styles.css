@@ -1,114 +1,153 @@
 body {
-    margin: 0px;
+  margin: 0px;
 }
-.hero-section{
-    background-image: url(./images/mountain1.png);
-    height: 1032px;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.navbar{
-    display: flex;
-    padding-top: 5px;
-    
+.hero-section {
+  background-image: url(./images/mountain1.png);
+  height: 1032px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.logo{
-    height: 57px;
-    padding-top: 12px ;
+.navbar {
+  display: flex;
+  padding-top: 5px;
 }
 
-.nav-logo{
-    padding-left: 56px;
+.logo {
+  height: 57px;
+  padding-top: 12px;
 }
 
-.nav-elements{
-    display: flex;
-    gap: 80px;
-    font-family: 'Quando', serif;
-    font-size:20px ;
+.nav-logo {
+  padding-left: 56px;
+}
+
+.nav-elements {
+  display: flex;
+  gap: 80px;
+  font-family: "Quando", serif;
+  font-size: 20px;
+  color: white;
+  padding-left: 410px;
+}
+
+.hero-text {
+  padding-left: 58px;
+  padding-top: 66px;
+}
+
+.main-text {
+  font-family: "Quando", serif;
+  font-size: 45px;
+  color: white;
+  line-height: 27px;
+  font-weight: normal;
+}
+.sub-text {
+  font-family: "Ubuntu", serif;
+  font-size: 22px;
+  color: white;
+  font-weight: light;
+  line-height: 18px;
+  margin-bottom: 32px;
+}
+.hero-btn {
+  font-family: "Ubuntu", serif;
+  font-size: 18px;
+  font-weight: normal;
+  color: white;
+  height: 66px;
+  width: 257px;
+  text-align: center;
+  border-radius: 8px;
+  background-color: #0a475b75;
+  border-color: white;
+  cursor: pointer;
+}
+
+.hero-btn:hover {
+  background-color: #04384af9;
+}
+
+.features {
+  display: flex;
+  padding-top: 150px;
+  gap: 200px;
+}
+
+.feature-body {
+  line-height: 25px;
+  cursor: pointer;
+}
+
+.heading {
+  font-family: "Quando", serif;
+  color: white;
+  font-size: 24px;
+  padding-left: 10px;
+}
+.heading:hover {
+  font-size: 27px;
+}
+
+.text {
+  font-family: "Ubuntu", serif;
+  color: white;
+  line-height: 10px;
+  padding-left: 10px;
+  font-weight: lighter;
+}
+
+.feature-line {
+  border: 3px dashed rgba(255, 255, 255, 0.82);
+  border-right: 0;
+  border-top: 0;
+  border-bottom: 0;
+}
+.feature-line:hover {
+  border-left: 3px solid rgba(255, 255, 255, 0.82);
+}
+
+.about {
+  background-color: #020b10;
+  height: 500px;
+}
+.about-img {
+  position: absolute;
+  left: 800px;
+  top: 1097px;
+  cursor: pointer;
+}
+.about-img:hover{
+    transform: scale(1.1);
+}
+
+.about-heading {
+  margin: 0;
+  font-family: "Quando", serif;
+  font-size: 45px;
+  color: white;
+  position: absolute;
+  top: 1097px;
+  left:60px;
+}
+
+.about-text{
+    height:212px ;
+    width: 617px;
+    font-family: "Ubuntu",serif;
     color: white;
-    padding-left: 410px;
-    
+    line-height: 25px;
+    position: absolute;
+    left:60px;
+    top:1178px;
 }
-
-.hero-text{
-    padding-left: 58px;
-    padding-top: 66px;
-}
-
-.main-text{
-    font-family: 'Quando', serif;
-    font-size:45px ;
-    color: white;
-    line-height: 27px;
-    font-weight:normal;
-}
-.sub-text{
-    font-family: 'Ubuntu', serif;
-    font-size:22px ;
-    color: white;
-    font-weight: light;
-    line-height: 18px;
-    margin-bottom: 32px;
-}
-.hero-btn{
-    font-family: 'Ubuntu', serif;
-    font-size: 18px;
-    font-weight:normal;
-    color: white;
-    height: 66px;
-    width: 257px;
-    text-align: center;
-    border-radius:8px;
-    background-color: #0a475b75;
-    border-color: white;
-    cursor: pointer;
-}
-
-.hero-btn:hover{
-    background-color: #04384af9;
-}
-
-.features{
-    display: flex;
-    padding-top: 150px;
-    gap:200px
-}
-
-.feature-body{
-    line-height:25px; 
-    cursor: pointer;
-}
-
-.heading{
-    font-family: 'Quando', serif;
+.know{
+    text-decoration: none;
+    font-family: "Ubuntu",serif;
     color: white;
     font-size: 24px;
-    padding-left: 10px;
-}
-.heading:hover{
-    font-size:27px;
-    
-}
-
-.text{
-    font-family:'Ubuntu', serif; 
-    color: white;
-    line-height: 10px;
-    padding-left: 10px;
-    font-weight: lighter;
-}
-
-
-.feature-line{
-border: 3px dashed rgba(255, 255, 255, 0.82);
-border-right: 0;
-border-top: 0;
-border-bottom: 0;
-}
-.feature-line:hover{
-    border-left: 3px solid rgba(255, 255, 255, 0.82);
-    
+    font-style: normal;
+    font-weight: 600;
+    padding-top: 32px;
 }
