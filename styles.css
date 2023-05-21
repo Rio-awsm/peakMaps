@@ -70,3 +70,45 @@ body {
 .hero-btn:hover{
     background-color: #04384af9;
 }
+
+.features{
+    display: flex;
+    padding-top: 150px;
+    gap:200px
+}
+
+.feature-body{
+    line-height:25px; 
+    cursor: pointer;
+}
+
+.heading{
+    font-family: 'Quando', serif;
+    color: white;
+    font-size: 24px;
+    padding-left: 10px;
+}
+.heading:hover{
+    font-size:27px;
+    
+}
+
+.text{
+    font-family:'Ubuntu', serif; 
+    color: white;
+    line-height: 10px;
+    padding-left: 10px;
+    font-weight: lighter;
+}
+
+
+.feature-line{
+border: 3px dashed rgba(255, 255, 255, 0.82);
+border-right: 0;
+border-top: 0;
+border-bottom: 0;
+}
+.feature-line:hover{
+    border-left: 3px solid rgba(255, 255, 255, 0.82);
+    
+}
