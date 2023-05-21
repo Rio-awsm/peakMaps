@@ -1,0 +1,72 @@
+body {
+    margin: 0px;
+}
+.hero-section{
+    background-image: url(./images/mountain1.png);
+    height: 1032px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar{
+    display: flex;
+    padding-top: 5px;
+    
+}
+
+.logo{
+    height: 57px;
+    padding-top: 12px ;
+}
+
+.nav-logo{
+    padding-left: 56px;
+}
+
+.nav-elements{
+    display: flex;
+    gap: 80px;
+    font-family: 'Quando', serif;
+    font-size:20px ;
+    color: white;
+    padding-left: 410px;
+    
+}
+
+.hero-text{
+    padding-left: 58px;
+    padding-top: 66px;
+}
+
+.main-text{
+    font-family: 'Quando', serif;
+    font-size:45px ;
+    color: white;
+    line-height: 27px;
+    font-weight:normal;
+}
+.sub-text{
+    font-family: 'Ubuntu', serif;
+    font-size:22px ;
+    color: white;
+    font-weight: light;
+    line-height: 18px;
+    margin-bottom: 32px;
+}
+.hero-btn{
+    font-family: 'Ubuntu', serif;
+    font-size: 18px;
+    font-weight:normal;
+    color: white;
+    height: 66px;
+    width: 257px;
+    text-align: center;
+    border-radius:8px;
+    background-color: #0a475b75;
+    border-color: white;
+    cursor: pointer;
+}
+
+.hero-btn:hover{
+    background-color: #04384af9;
+}
